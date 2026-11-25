@@ -1,1 +1,12 @@
 WS_03 folder structure.
+arkdown
+
+## Workshop 3: Advanced CSS
+
+Enhanced the existing `index.html` page with interactive styling, motion, and visual effects using modern CSS features.
+
+* **Task 1: CSS Transitions** – Added a button (`.transition-button`) that smoothly transitions its background color from light blue to light coral over `0.3s` on `:hover`.
+* **Task 2: CSS Animations** – Built a continuously moving box (`.animation-box`) using `@keyframes` to animate horizontal movement (`left: 0` to `100px`) back and forth infinitely.
+* **Task 3: CSS Pseudo-classes** – Styled an unordered list (`.pseudo-list`) with alternating row background colors using the `:nth-child(odd)` and `:nth-child(even)` selectors.
+* **Task 4: CSS Filters** – Applied a full `grayscale(100%)` filter to an image (`.filter-image`) that smoothly restores original colors (`grayscale(0%)`) on hover.
+* **Task 5: CSS Pseudo-elements** – Styled a `<blockquote>` element (`.quote`) with a decorative oversized opening quotation mark positioned via the `::before` pseudo-element.
