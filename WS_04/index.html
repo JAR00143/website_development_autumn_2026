@@ -129,6 +129,26 @@
             top: 0;
             color: gray;
         }
+        .quote::before {
+            content: '“';
+            font-size: 40px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: gray;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        .grid-item {
+            background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
