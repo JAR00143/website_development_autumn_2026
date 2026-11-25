@@ -112,7 +112,20 @@
         .pseudo-list li:nth-child(even) {
             background-color: white;
         }
-    
+    .pseudo-list li:nth-child(even) {
+            background-color: white;
+        }
+
+        .filter-image {
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+            width: 300px;
+            height: auto;
+        }
+        
+        .filter-image:hover {
+            filter: grayscale(0%);
+        }
     </style>
 </head>
 <body>
@@ -186,5 +199,6 @@
         <li>Item 3</li>
         <li>Item 4</li>
     </ul>
+    <img src="JanneRita.JPG" alt="Sample Image" class="filter-image">
 </body>
 </html>
