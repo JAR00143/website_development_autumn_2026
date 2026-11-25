@@ -129,14 +129,6 @@
             top: 0;
             color: gray;
         }
-        .quote::before {
-            content: '“';
-            font-size: 40px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: gray;
-        }
 
         .grid-container {
             display: grid;
@@ -146,6 +138,18 @@
 
         .grid-item {
             background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box {
+            background-color: lightblue;
             padding: 20px;
             text-align: center;
         }
@@ -242,10 +246,6 @@
                 This is a sample quote.
             </blockquote>
         </section>
-        <blockquote class="quote">
-                This is a sample quote.
-            </blockquote>
-        </section>
 
         <section id="grid">
             <h2>Grid Layout</h2>
@@ -258,7 +258,15 @@
                 <div class="grid-item">6</div>
             </div>
         </section>
-        
+
+        <section id="flexbox">
+            <h2>Flexbox Layout</h2>
+            <div class="flex-container">
+                <div class="box">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box 3</div>
+            </div>
+        </section>
     </main>
 
     <footer>
