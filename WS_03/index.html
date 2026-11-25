@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        h1 {
+            color: green;
+            font-size: 2em;
+        }
+
+        p {
+            color: blue;
+        }
+
+        .content-box {
+            padding: 20px;
+            margin: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input[type="text"], input[type="email"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 1. INLINE CSS: Sinulla olikin tämä jo valmiina tässä! -->
+    <h1 style="color: blue;">Welcome to Janne's Page</h1>
+    
+    <p>This is a paragraph.</p>
+    <p>
+        <a href="https://www.laurea.fi">Visit Laurea</a>.
+    </p>
+
+    <table>
+        <tr>
+            <th>Kurssi</th>
+            <th>Opintopisteet</th>
+        </tr>
+        <tr>
+            <td>Web-development</td>
+            <td>5 op</td>
+        </tr>
+        <tr>
+            <td>Kyberturvallisuuden perusteet</td>
+            <td>2 op</td>
+        </tr>
+        <tr>
+            <td>Python-ohjelmointi</td>
+            <td>5 op</td>
+        </tr>
+    </table>
+
+    <h2>Ota yhteyttä</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Tässäkin sinulla on jo Inline CSS käytössä -->
+    <img src="JanneRita.JPG" alt="omakuva" style="width: 300px; height: auto;">
+
+    <h2 style="font-size: 20px;">My most hated things</h2>
+    <ol>
+        <li>Orientering</li>
+        <li>Cross country skiing</li>
+        <li>Taekwondo poomse</li>
+    </ol>
+    
+    <h2>My hobbies</h2>
+    <ul>
+        <li>Taekwondo</li>
+        <li>Stunts</li>
+        <li>biking</li>
+    </ul>
+
+    <div class="content-box">
+        <h3>excersice Sample Heading</h3>
+        <p>This is a sample paragraph inside a div element.</p>
+    </div>
+<div class="content-box">
+        <h3>Sample Heading</h3>
+        <p>This is a sample paragraph inside a div element.</p>
+    </div>
+
+    <!-- LISÄÄ PAINIKE TÄHÄN: -->
+    <button class="transition-button">Hover me</button>
+</body>
+</html>
